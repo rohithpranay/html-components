@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 30px;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    padding-bottom: 50px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left h1{
+    font-size: 120px;
+    font-weight: 600;
+    font-family: 'work sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color-desc{
+    margin-top: 35px;
+}
+#color-desc p{
+    font-weight: 400;
+    line-height: 1.3;
+}
+#color{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: 2px solid #000;
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+#color1{
+    height: 20px;
+    width:20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin:3px;
+}
+#color2{
+    height: 20px;
+    width:20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#right{
+    height: 90%;
+    width: 38%;
+    position: relative;
+    /* background-color: mediumturquoise; */
+}
+#right-top{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right-top p{
+    font-weight: 600;
+}
+#right-img{
+    background-image: url(https://images.unsplash.com/photo-1531891570158-e71b35a485bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhcHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+}
+#right-bag{
+    display: flex;
+}
+#black-gola{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    background-color: rgb(30, 30, 31);
+    color: #fff;
+    border-radius: 50%;
+    right: -18%;
+    top: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#black-gola h5{
+    font-weight: 500;
+    font-size:26px ;
+}
+#rotated{
+    position: absolute;
+    bottom: 2%;
+    left: -10%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 35px;
+    font-weight: 500;
+}
